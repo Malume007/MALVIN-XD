@@ -1,6 +1,6 @@
-const { malvin, commands } = require('../malvin');
+const { malume, commands } = require('../malume');
 
-malvin({
+malume({
     pattern: "owner",
     alias: ["developer", "dev"],
     desc: "Displays the developer info",
@@ -14,24 +14,24 @@ malvin({
         const name = pushname || "there";
 
         const caption = `
-╭─⌈ *👨‍💻 ᴍᴀʟᴠɪɴ-ˣᴅ ᴅᴇᴠᴇʟᴏᴘᴇʀ* ⌋─
+╭─⌈ *👨‍💻 ᴍᴀʟume-ˣᴅ ᴅᴇᴠᴇʟᴏᴘᴇʀ* ⌋─
 │
 │ 👋 Hello, *${name}*!
 │
-│ 🤖 I'm *Malvin King*, the creator and
+│ 🤖 I'm *Malume Ng*, the creator and
 │    maintainer of this smart WhatsApp bot.
 │
 │ 👨‍💻 *ᴏᴡɴᴇʀ ɪɴꜰᴏ:*
 │ ──────────
-│ 🧠 *Name:* Malvin King
-│ 🎂 *Age:* +20
-│ 📞 *Contact:* wa.me/12766988379
+│ 🧠 *Name:* Malume Ng
+│ 🎂 *Age:* +26
+│ 📞 *Contact:* wa.me/255626986627
 │ 📺 *YouTube:* Malvin King Tech
 │     https://youtube.com/@malvintech2
 │
 ╰─────────
 
->⚡ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍᴀʟᴠɪɴ-xᴅ
+>⚡ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍᴀume-Ng
         `.trim();
 
         await conn.sendMessage(
@@ -49,8 +49,8 @@ malvin({
                         serverMessageId: 143
                     },
                     externalAdReply: {
-                        title: "Malvin-XD Bot",
-                        body: "Created with ❤️ by Malvin King",
+                        title: "Malume-Ng Bot",
+                        body: "Created with ❤️ by Malume ng",
                         thumbnailUrl: 'https://files.catbox.moe/vfv7n6.jpg',
                         mediaType: 1,
                         renderSmallerThumbnail: true,
