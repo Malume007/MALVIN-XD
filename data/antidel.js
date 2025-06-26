@@ -11,7 +11,7 @@ const AntiDelDB = DATABASE.define('AntiDelete', {
     },
     status: {
         type: DataTypes.BOOLEAN,
-        defaultValue: config.ANTI_DELETE || false,
+        defaultValue: config.ANTI_DELETE || true,
     },
 }, {
     tableName: 'antidelete',
